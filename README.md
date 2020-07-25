@@ -8,7 +8,12 @@ Explore US Bikeshare Data
 The python script takes user input to compute and print descriptive statistics of bike share systems for three major cities in the United States: Chicago, New York City and Washington.
 
 ### Files used
-Include the files used
+* bikeshare.py
+* chicago.csv (not in the remote repository)
+* new_york_city.csv (not in the remote repository)
+* washington.csv (not in the remote repository)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The project was created as part of the Udacity's Nanodegree "Programming for Data Science with Python Nanodegree Program": https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
+
+The raw data was provided Motivate: https://www.motivateco.com/
