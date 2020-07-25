@@ -16,4 +16,4 @@ The python script takes user input to compute and print descriptive statistics o
 ### Credits
 The project was created as part of the Udacity's Nanodegree "Programming for Data Science with Python Nanodegree Program": https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
 
-The raw data was provided Motivate: https://www.motivateco.com/
+The raw data was provided by Motivate: https://www.motivateco.com/
