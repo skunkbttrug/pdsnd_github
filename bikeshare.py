@@ -190,7 +190,14 @@ def user_stats(df, city):
 
 
 def get_raw(df):
-    """Prints 5 lines of raw data each time upon user's request"""   
+    """Prints 5 lines of raw data each time upon user's request
+	
+	Args:
+        df - Pandas DataFrame containing city data filtered by month and day
+
+    Returns:
+        None
+	"""   
     df = df.drop(columns=['month', 'day_of_week', 'hour', 'trip']) #removes the columns added by the script to return to the raw data's status
         
     #asks the user the first time
