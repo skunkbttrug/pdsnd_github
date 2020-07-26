@@ -5,7 +5,7 @@
 Explore US Bikeshare Data
 
 ### Description
-The python script takes user input to compute and print descriptive statistics of bike share systems for three major cities in the United States: Chicago, New York City and Washington.
+The python script takes user input to compute and print descriptive statistics of bike share systems for three major cities in the United States: Chicago, New York City and Washington. Additionally and upon request, the user has the possibility to see the raw data - presented in bits of five rows.
 
 ### Files used
 * bikeshare.py
