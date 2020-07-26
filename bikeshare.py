@@ -175,7 +175,6 @@ def user_stats(df, city):
         print("Number of bike rides by user gender:\n{}\n".format(total_user_gender.to_string()))#method (.to_string) used just for aesthetic
 
     #Displays earliest, most recent, and most common year of birth
-        df['Birth Year'] = pd.to_numeric(df['Birth Year'])# converts column data type to numeric in order get max and min values
         oldest_yob = df['Birth Year'].min()
         print("Year of birth of the oldest customer: {}".format(int(oldest_yob)))
     
