@@ -181,7 +181,7 @@ def user_stats(df, city):
         youngest_yob = df['Birth Year'].max()
         print("Year of birth of the youngest customer: {}".format(int(youngest_yob)))
     
-        common_yob = df['Birth Year'].value_counts().idxmax()
+        common_yob = df['Birth Year'].mode()
         print("Most common year of birth: {}\n".format(int(common_yob)))
 
     print("This took %s seconds." % (time.time() - start_time))
